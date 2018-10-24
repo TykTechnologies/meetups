@@ -1,38 +1,19 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Pet>
-   \t
-   <id>135791</id>
-   \t
-   <Category>
-      \t\t
-      <id>0</id>
-      \t\t
-      <name>string</name>
-      \t
-   </Category>
-   \t
-   <name>doggie</name>
-   \t
-   <photoUrl>
-      \t\t
-      <photoUrl>string</photoUrl>
-      \t
-   </photoUrl>
-   \t
-   <tag>
-      \t\t
-      <Tag>
-         \t\t\t
-         <id>0</id>
-         \t\t\t
-         <name>string</name>
-         \t\t
-      </Tag>
-      \t
-   </tag>
-   \t
-   <status>available</status>
+	<id>123450</id>
+	<Category>
+		<id>0</id>
+		<name>string</name>
+	</Category>
+	<name>doggie</name>
+	<photoUrl>
+		<photoUrl>string</photoUrl>
+	</photoUrl>
+	<tag>
+		<Tag>
+			<id>0</id>
+			<name>string</name>
+		</Tag>
+	</tag>
+	<status>available</status>
 </Pet>
-
