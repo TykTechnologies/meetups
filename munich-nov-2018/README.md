@@ -6,7 +6,8 @@ Flow:
 5. Configure versions with `version` header and values in this format `v1.0.0` (so can be used with the swagger on the dev portal later on). Don't choose a default verison so you can see this feature in action.
 6. Endpoint designer - scan through the various plugins
 7. For version `v1.0.0` add an endpoint for `POST` and demo the Json validation plugin ([paste this schema](https://github.com/TykTechnologies/meetups/blob/master/munich-nov-2018/json-schema-validation.json)
-8. It doesn't work, you must add the header `version: v1.0.0`.
+8. Make API call by [posting this](https://github.com/TykTechnologies/meetups/blob/master/munich-nov-2018/pet-post.json).
+It doesn't work, you must add the header `version: v1.0.0`.
 9. Still doesn't work, you must add the header `Content-Type: application/json` - required by the petstore backend api.
 10. Test the schema with a http client - to see the errors you could get remove the status or the id fields, change the id field from int to a string.
 11. Test to demonstrate that it doesn't validate for another version such as `v1.0.1`
