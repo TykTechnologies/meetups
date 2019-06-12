@@ -1,0 +1,17 @@
+{
+   "properties":{
+      "status":{
+         "description":"status",
+         "type":"string"
+      },
+      "id":{
+         "type":"integer"
+      }
+   },
+   "required":[
+      "status",
+      "id"
+   ],
+   "title":"pet",
+   "type":"object"
+}
